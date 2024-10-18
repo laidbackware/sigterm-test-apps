@@ -36,10 +36,4 @@ public class Application {
 		return new InMemoryHttpTraceRepository();
 	}
 
-	// @PreDestroy
-	// public void preDestroy() throws InterruptedException {
-	// 		System.out.println("PreDestroy Hook detected. Waiting for 60 seconds.");
-	// 		Thread.sleep(60000);
-	// 		System.out.println("PreDestroy Hook Completed.");
-	// }
 }
